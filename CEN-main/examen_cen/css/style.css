@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.marcos{
+    margin-left: 17%;
+    width: 62%;
+    height: 100%;
+}

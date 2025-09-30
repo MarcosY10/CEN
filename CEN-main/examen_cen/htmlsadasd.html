@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CEN - Centro Educativo Nonogasta</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url("https://via.placeholder.com/1200x600") no-repeat center center;
+      background-size: cover;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Barra superior con logo */
+    header {
+      background-color: rgba(0, 0, 0, 0.6);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 20px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    /* Navegador */
+    nav.navegador {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    nav.navegador span {
+      font-weight: bold;
+      color: white;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    nav.navegador img {
+      height: 25px;
+    }
+
+    nav.navegador button {
+      background: rgba(255, 255, 255, 0.2);
+      border: none;
+      padding: 8px 15px;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    nav.navegador button:hover {
+      background: rgba(255, 255, 255, 0.4);
+    }
+
+    /* Sección hero con botón abajo */
+    .hero {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end; /* Botón abajo */
+      padding-bottom: 50px;  /* Espacio desde abajo */
+      margin-top: 70px;      /* espacio para header */
+    }
+
+    .hero button {
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      background-color: #007BFF;
+      color: white;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background-color: #0056b3;
+    }
+
+    /* Contenedor misión y visión */
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      align-items: center;
+      text-align: center;
+      padding: 40px 20px;
+      gap: 20px;
+      background-color: rgba(255, 255, 255, 0.8);
+      margin: 20px;
+      border-radius: 10px;
+    }
+
+    .container h1 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .container img.marcos {
+      width: 150px;
+      height: auto;
+    }
+
+    /* Footer */
+    footer {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Barra superior con logo y navegación -->
+  <header>
+    <img src="https://via.placeholder.com/150x50?text=LOGO" alt="Logo">
+    <nav class="navegador">
+      <span><img src="https://via.placeholder.com/25" alt=""> CEN</span>
+      <button>Información</button>
+      <button>Campus Virtual</button>
+      <button>Instagram</button>
+      <button>Facebook</button>
+    </nav>
+  </header>
+
+  
+  <!-- Misión y Visión -->
+  <div class="container">
+    <div>
+      <h1>Misión</h1>
+      <p>Texto de la misión del centro educativo.</p>
+    </div>
+
+    <div>
+      <img class="marcos" src="media/LOGO1.png" alt="Logo CEN">
+    </div>
+   
+
+    <div>
+      <h1>Visión</h1>
+      <p>Texto de la visión del centro educativo.</p>
+    </div>
+  </div>
+
+   <!-- Botón al final de la imagen -->
+  <div class="hero">
+    <button onclick="mostrarInfo()">Más info</button>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>CEN © CENTRO EDUCATIVO NONOGASTA</p>
+  </footer>
+
+  <script>
+    function mostrarInfo() {
+      alert("Aquí puedes poner la información adicional.");
+    }
+  </script>
+
+</body>
+</html>
