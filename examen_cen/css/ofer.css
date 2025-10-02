@@ -1,0 +1,58 @@
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+    .topbar {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 10px 20px;
+      height: 120px;
+    }
+
+    .topbar .logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: white;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .menu {
+      display: flex;
+      gap: 5px;
+      margin-left: 1%;
+    }
+    
+    .buton{
+      padding: 2% 10%;
+      background-color: aquamarine;
+      border-radius: 40px;
+    }
+
+    .container{
+      background: lightblue;
+  width: 94%;          /* ancho con margen de 3% a los costados */
+  margin: 3% auto;     /* centra y agrega margen arriba/abajo */
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;     /* para que los hijos no se salgan */
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+    }
+
+    .recorrer {
+  flex: 1 1 250px;     /* cada bloque se adapta, mínimo 250px */
+  margin: 10px;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+}
+
