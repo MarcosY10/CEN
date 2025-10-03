@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+    padding: 0;
+    height: 140px;
+    display: flex;                /* activamos flexbox */
+    align-items: center;  
+}
+
+
+.upt{
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    margin-right: 10px;
+    background-color: rgb(251, 238, 218);
+    color: rgb(85, 85, 0);
+    font-size: 20px;
+}
+
+footer{
+    position: absolute;
+
+}
+.mar{
+    width: 400px;
+    height: 400px;
+    
+}
+.vid{
+  text-align: center;
+}
+.centr{
+text-align: center;
+} 
+div p{
+    width: 600px;
+    margin: 0 auto;
+}
+#colo {
+    
+    background-color: rgb(136, 143, 143);
+    width: 600px;       /* igual que tus p, o el ancho que quieras */
+    margin: 50px auto 0 auto;    /* para centrar el div */
+    padding: 20px;      /* opcional, para que no quede pegado al texto */
+    border-radius: 10px; /* opcional, para que se vea más estético */
+}
