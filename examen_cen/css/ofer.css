@@ -1,0 +1,149 @@
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background-image: url("../media/principal4.png");
+background-repeat: no-repeat;
+background-size: cover; 
+background-position: center; 
+    }
+
+nav {
+background-color: #2b1718;
+height: 140px;
+display: flex;
+align-items: center;
+padding: 0 20px;
+position: relative; 
+        }
+
+nav img {
+width: 14%;
+        }
+
+ 
+nav button {
+  margin-left: 20px;
+  background-color: #583132;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  height: 50px;
+  padding: 8px 12px;
+}
+
+    .jiji button{
+           
+            
+            color: white;
+            border: none; 
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            height: 50px;
+        animation: cambiarColor 10s ease-in-out infinite;
+
+}
+
+@keyframes cambiarColor {
+  0%   { background-color: #3b075b; }
+  25%  { background-color: #6812cb; }
+  50%  { background-color: #f52525; }
+  75%  { background-color: #b01212; }
+  100% { background-color: #3b075b; }
+}
+    .jojo button{
+           
+            
+            color: white;
+            border: none; 
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            height: 50px;
+        animation: cambiar 10s ease-in-out infinite;
+
+}
+
+@keyframes cambiar {
+  0%   { background-color: #5b2907; }
+  25%  { background-color: #cb5c12; }
+  50%  { background-color: #f5cf25; }
+  75%  { background-color: #b0ad12; }
+  100% { background-color: #555b07; }
+}
+
+    .main {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .intro {
+      
+      max-width: 400px;
+    }
+
+    .container {
+      display: none; 
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      flex: 1 1 500px;
+      max-width: 800px;
+    }
+
+    .recorrer {
+      margin-bottom: 10px;
+      background: white;
+      padding: 10px;
+      border-radius: 6px;
+      box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    }
+
+    .recorrer h1 {
+      margin: 0;
+      font-size: 16px;
+      color: brown;
+    }
+
+    .recorrer p {
+      margin: 5px 0 0;
+      font-size: 14px;
+    }
+
+.menus button {
+ 
+  color: #fff;
+  border: none;
+  border-radius: 12px; 
+  padding: 12px 25px; 
+  font-size: 28px; 
+  cursor: pointer;
+  margin: 5px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+  transition: all 0.3s ease; 
+  text-transform: uppercase; 
+  letter-spacing: 1px;
+}
+
+.menus button:hover {
+  background: linear-gradient(145deg, #fc1750, #5c2224); /* degradado más claro */
+  transform: scale(1.03); 
+  box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+}
+
+     footer {
+        background-color: #251415; 
+        text-align: center;
+        color: white;
+        padding: 20px;
+        margin-top: 50vh;
+    }

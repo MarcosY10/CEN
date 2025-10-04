@@ -1,0 +1,119 @@
+
+body {
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+background-image: url("../media/principal4.png");
+background-repeat: no-repeat;
+background-size: cover; 
+background-position: center; 
+}
+
+        nav {
+            background-color: #2b1718;
+            height: 140px;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            position: relative; 
+        }
+
+        nav img {
+            width: 14%;
+        }
+
+ 
+
+        nav button {
+            margin-left: 20px;
+            background-color: #4d292bff ;
+            color: white;
+            border: none; 
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            height: 50px;
+        }
+
+        nav button:hover{
+            background-color: brown;
+        }
+
+        #colo {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .vid img {
+            width: 200px;
+            display: block;
+            margin: 0 auto 20px;
+        }
+
+        .centr {
+            max-width: 800px;
+            margin: 10px auto;
+            text-align: justify;
+            background-color: #2b1718;
+            color: aliceblue;
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        .centr h2 {
+            color: whitesmoke;
+            margin-top: 20px;
+
+        }
+        .jiji button{
+            margin-left: 20px;
+            background-color: #0b45afff ;
+            color: white;
+            border: none; 
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            height: 50px;
+        animation: cambiarColor 10s ease-in-out infinite;
+
+}
+
+@keyframes cambiarColor {
+  0%   { background-color: #3b075b; }
+  25%  { background-color: #6812cb; }
+  50%  { background-color: #f52525; }
+  75%  { background-color: #b01212; }
+  100% { background-color: #3b075b; }
+}
+
+    .jojo button{      
+            
+            color: white;
+            border: none; 
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            height: 50px;
+        animation: cambiar 10s ease-in-out infinite;
+
+}
+
+@keyframes cambiar {
+  0%   { background-color: #5b2907; }
+  25%  { background-color: #cb5c12; }
+  50%  { background-color: #f5cf25; }
+  75%  { background-color: #b0ad12; }
+  100% { background-color: #555b07; }
+}
+
+        footer {
+            background-color: #2b1718; 
+            text-align: center;
+            color: white;
+            padding: 15px;
+            margin-top: 40px;
+        }
+

@@ -1,0 +1,135 @@
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, #f0f0f0, #d9e4f5); /* Fondo degradado */
+        }
+nav {
+            background-color: #2b1718;
+            height: 140px;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            position: relative; 
+        }
+
+        nav img {
+            width: 14%;
+        }
+
+ 
+
+        nav button {
+            margin-left: 20px;
+            background-color: #4d292bff ;
+            color: white;
+            border: none; 
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            height: 50px;
+        }
+
+        
+        .jiji button{
+            margin-left: 20px;
+            background-color: #0b45afff ;
+            color: white;
+            border: none; 
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            height: 50px;
+        animation: cambiarColor 10s ease-in-out infinite;
+
+}
+
+@keyframes cambiarColor {
+  0%   { background-color: #3b075b; }
+  25%  { background-color: #6812cb; }
+  50%  { background-color: #f52525; }
+  75%  { background-color: #b01212; }
+  100% { background-color: #3b075b; }
+}
+
+    .jojo button{
+           
+            
+            color: white;
+            border: none; 
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            height: 50px;
+        animation: cambiar 10s ease-in-out infinite;
+
+}
+
+@keyframes cambiar {
+  0%   { background-color: #5b2907; }
+  25%  { background-color: #cb5c12; }
+  50%  { background-color: #f5cf25; }
+  75%  { background-color: #b0ad12; }
+  100% { background-color: #555b07; }
+}
+ 
+        nav button:hover{
+            background-color: brown;
+        }
+
+    
+        .vid img, .slide img {
+            width: 200px;
+            display: block;
+            margin: 0 auto 20px;
+        }
+
+.carrusel {
+  position: relative;
+  width: 600px;
+  height: 600px;
+  overflow: hidden;
+  margin: 20px auto; /* centrado horizontal */
+  border-radius: 12px; /* opcional para esquinas redondeadas */
+  background-color: #222; /* fondo si la imagen no carga */
+}
+.slide {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+.boton {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+.carrusel button:nth-of-type(1) { left: 10px; }
+.carrusel button:nth-of-type(2) { right: 10px; }
+
+        footer {
+            background-color: #4d292bff; 
+            text-align: center;
+            color: white;
+            padding: 15px;
+            position: fixed;  /* lo fija en la pantalla */
+            bottom: 0;        /* al fondo */
+            left: 0;          /* al borde izquierdo */
+            width: 100%;      /* ocupa todo el ancho */
+        }
