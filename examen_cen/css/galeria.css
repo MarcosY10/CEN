@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+    padding: 0;
+    height: 140px;
+    display: flex;                /* activamos flexbox */
+    align-items: center;  
+}
+
+
+.upt{
+    font-size: 30px;
+    margin-right: 10px;
+}

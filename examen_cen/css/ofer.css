@@ -1,0 +1,136 @@
+
+  
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: #2b1718;
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      flex-wrap: wrap;
+    }
+
+    nav .logo {
+      display: flex;
+      align-items: center;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      margin-right: 20px;
+      height: 100px;
+    }
+
+    nav .logo img {
+      width: 50px;
+      margin-right: 10px;
+      cursor: pointer;
+    }
+
+    nav .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    nav .menu button{
+        background-color: #3a1f20 ;
+      color: white;
+      border: none;
+      margin-right: 5px;
+      padding: 10px 10px;
+      border-radius: 6px;
+     
+    }
+    .jiji button{
+           
+            
+            color: white;
+            border: none; 
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+            height: 50px;
+        animation: cambiarColor 10s ease-in-out infinite;
+
+}
+
+@keyframes cambiarColor {
+  0%   { background-color: #3b075b; }
+  25%  { background-color: #6812cb; }
+  50%  { background-color: #f52525; }
+  75%  { background-color: #b01212; }
+  100% { background-color: #3b075b; }
+}
+
+    
+    nav .menu button:hover{
+      background: cadetblue;
+    }
+
+    nav button {
+      background-color: #583132;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      text-decoration: none;
+      font-size: 14px;
+      height: 50px;
+    }
+
+    .main {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 20px;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .intro {
+      
+      max-width: 400px;
+    }
+
+    .container {
+      display: none; /* Ocultamos por defecto */
+      background: #f4f4f4;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      flex: 1 1 500px;
+      max-width: 800px;
+    }
+
+    .recorrer {
+      margin-bottom: 10px;
+      background: white;
+      padding: 10px;
+      border-radius: 6px;
+      box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    }
+
+    .recorrer h1 {
+      margin: 0;
+      font-size: 16px;
+      color: brown;
+    }
+
+    .recorrer p {
+      margin: 5px 0 0;
+      font-size: 14px;
+    }
+
+
+
+     footer {
+        background-color: #251415; 
+        text-align: center;
+        color: white;
+        padding: 20px;
+        margin-top: 50vh;
+    }
